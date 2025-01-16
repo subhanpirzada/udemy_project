@@ -1,0 +1,44 @@
+{
+  "userInfo": [
+    {
+      "id": "ea45",
+      "firstName": "Terminator1",
+      "lastName": "Alex",
+      "userName": "Terminator1Alex",
+      "emailAddress": "Terminator1Alex@gmail.com",
+      "password": "Terminator1Alex",
+      "gender": "male",
+      "number": "32131232131"
+    },
+    {
+      "id": "ea46",
+      "firstName": "Terminator2",
+      "lastName": "Alex",
+      "userName": "Terminator2Alex",
+      "emailAddress": "Terminator2Alex@gmail.com",
+      "password": "Terminator2Alex",
+      "gender": "male",
+      "number": "32131232131"
+    },
+    {
+      "id": "ea47",
+      "firstName": "Terminator3",
+      "lastName": "Alex",
+      "userName": "Terminator3Alex",
+      "emailAddress": "Terminator3Alex@gmail.com",
+      "password": "Terminator3Alex",
+      "gender": "male",
+      "number": "32131232131"
+    },
+    {
+      "id": "024b",
+      "firstName": "Subhan",
+      "lastName": "Pirzada",
+      "userName": "subhanp360",
+      "emailAddress": "subhanp360@gmail.com",
+      "password": "Seaways@123",
+      "gender": "male",
+      "number": "03224890822"
+    }
+  ]
+}
