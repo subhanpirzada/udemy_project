@@ -4,7 +4,7 @@
       <v-main  style="align-content: center;">
         <v-row style="justify-content: center; width: 100%;">
           <v-col cols="3" md="3" sm="3">
-            <v-card style="border-radius: 20px; padding: 20px 0;">
+            <v-card style="border-radius: 20px; padding: 20px 0;" elevation="10">
               <v-form ref="form">
                 
                 <v-card-title style="font-size: 30px; padding: 20px 50px 0;"> Sign Up </v-card-title>
@@ -247,7 +247,7 @@
   padding: 5px 50px;
 }
 #SignUpMain {
-  background: url('C:\Users\subha\OneDrive\Desktop\project\udemy_project\vuetify-project\src\assets\image.png');
+  background: url('@/assets/image.png');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;

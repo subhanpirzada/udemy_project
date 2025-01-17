@@ -104,7 +104,7 @@
           let info= await axios.get(`http://localhost:5000/userInfo?emailAddress=${this.form.emailAddress}&password=${this.form.password}`)
           console.log(info.data.length)
           if(info.status===200 && info.data.length){
-              this.$router.push({name:"Home"})
+              this.$router.push({name:"DataTable"})
               this.reset()
           }
           else {
@@ -150,7 +150,7 @@
   padding: 5px 50px;
 }
 #SignUpMain {
-  background: url('C:\Users\subha\OneDrive\Desktop\project\udemy_project\vuetify-project\src\assets\image.png');
+  background: url('@/assets/image.png');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;

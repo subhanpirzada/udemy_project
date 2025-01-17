@@ -9,8 +9,10 @@
 import Home from "@/components/Home.vue";
 import SignUp from "@/components/SignUp.vue";
 import Login from "@/components/Login.vue";
+import DataTable from "@/components/DataTable.vue";
 
 import { createRouter, createWebHistory } from 'vue-router/auto'
+import { components } from "vuetify/dist/vuetify-labs.js";
 
 
 const routes=[
@@ -29,6 +31,11 @@ const routes=[
       path:'/login',
       component:Login,
   },
+  {
+    name:'DataTable',
+    path:'/datatable',
+    component:DataTable,
+  }
 ]
 
 const router = createRouter({
